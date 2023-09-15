@@ -37,9 +37,11 @@ body {
 
 .slick-slider .slick-prev {
   left: -9px;
+  z-index: 10;
 }
 .slick-slider .slick-next {
   right: -9px;
+  z-index: 10;
 }
 
 a {

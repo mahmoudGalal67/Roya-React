@@ -26,8 +26,8 @@ function PriceLIst() {
           PRICE<span>LIST</span>
         </h2>
       </div>
-      <div className="price-list-groups md:p-8 p-3">
-        <div className="main-title md:p-4 p-2 my-5">
+      <div className="price-list-groups md:p-8 md:pt-0 pb-3">
+        <div className="main-title md:p-4 p-2 mb-5">
           Aesthetic Department Price List
         </div>
         <div className="wrapper flex justify-around flex-wrap">
