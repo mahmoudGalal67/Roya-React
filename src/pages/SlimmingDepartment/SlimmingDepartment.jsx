@@ -107,27 +107,6 @@ function SlimmingDepartment() {
               body goals.
             </p>
           </div>
-          <div className="flex justify-between flex-wrap items-center">
-            <div className="max-w-3xl">
-              <div className="title">Morpheus 8 Body</div>
-              <div className="item items-center flex gap-2">
-                &bull;{" "}
-                <p className="my-3">
-                  What does Morpheus 8 body do? In addition to skin tightening,
-                  the Morpheus8 is FDA approved as a Subdermal Adipose
-                  Remodeling Device(SARD) and is the first and only device to
-                  diminish fat in delicate areas. It is great for melting away
-                  extra fat underneath the chin and can even target larger areas
-                  such as cellulite on the thighs and buttock
-                </p>
-              </div>
-            </div>
-            <img
-              loading="lazy"
-              src="/images/SlimmingDepartment/morpheus-jpg 1.webp"
-              alt=""
-            />
-          </div>
         </div>
       </div>
       <div class="slider p-4 mb-16">
@@ -162,6 +141,27 @@ function SlimmingDepartment() {
             />
           </div>
         </Slider>
+        <div className="flex justify-between flex-wrap items-center p-8 my-16 border-2 border-blue-800 rounded-md">
+          <div className="max-w-3xl">
+            <div className="title">Morpheus 8 Body</div>
+            <div className="item items-center flex gap-2">
+              &bull;{" "}
+              <p className="my-3">
+                What does Morpheus 8 body do? In addition to skin tightening,
+                the Morpheus8 is FDA approved as a Subdermal Adipose Remodeling
+                Device(SARD) and is the first and only device to diminish fat in
+                delicate areas. It is great for melting away extra fat
+                underneath the chin and can even target larger areas such as
+                cellulite on the thighs and buttock
+              </p>
+            </div>
+          </div>
+          <img
+            loading="lazy"
+            src="/images/SlimmingDepartment/morpheus-jpg 1.webp"
+            alt=""
+          />
+        </div>
       </div>
       <div className="make-appointement relative md:px-8 px-2 flex md:flex-row flex-col gap-4 md:items-end items-center">
         <div className="left relative">

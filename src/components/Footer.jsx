@@ -8,12 +8,12 @@ function Footer() {
     <>
       <footer>
         <div className="wrapper flex flex-wrap md:justify-around">
-          <ul className="item md:items-start md:text-start flex my-4 flex-col gap-3">
+          <ul className="item md:items-start md:text-start flex flex-col gap-3">
             <li>
               <span className="text-xl">Our Branches</span>
             </li>
             <li>
-              <a href="/">Roya Medical Center</a>
+              <a href="/">Roya Medical Center ( Jumeirah Branch)</a>
             </li>
             <li>
               <a href="/branches">Roya Medical Center (Al Barsha Branch)</a>
@@ -21,11 +21,14 @@ function Footer() {
             <li>
               <a href="/offers">OFFERS</a>
             </li>
-          </ul>
-          <ul className="item md:items-start md:text-start flex my-4 flex-col gap-3">
             <li>
-              <span className="text-xl">Medical Procedures</span>
+              <span className="text-xl">Our Departments</span>
             </li>
+            <li>
+              <a href="/morpheus-8-in-dubai">Morpheus 8 in Dubai</a>
+            </li>
+          </ul>
+          <ul className="item md:items-start md:text-start flex flex-col gap-3">
             <li>
               <a href="/">Aesthetic Dermatology</a>
             </li>
@@ -48,7 +51,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <ul className="item md:items-start md:text-start  flex my-4 flex-col gap-3">
+          <ul className="item md:items-start md:text-start my-4 md:my-0 flex flex-col gap-3">
             <li>
               <span className="text-xl">Location</span>
             </li>
@@ -61,7 +64,7 @@ function Footer() {
               Umm Suqaym Road , Behind Creative Minds shop
             </li>
           </ul>
-          <div className="item items-center  flex-col gap-16 my-4">
+          <div className="item items-center  flex-col gap-16">
             <img
               loading="lazy"
               className="logo"

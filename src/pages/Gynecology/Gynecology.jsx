@@ -58,66 +58,79 @@ function Gynecology() {
             alt=""
             className="polygon"
           />
-          <h2 className="my-5 px-3 pt-16">OUR Gynecology services</h2>
-          <div className="title px-3 ">
+          <h2 className="my-5 px-3 text-center pt-16">
+            OUR Gynecology services
+          </h2>
+          <div className="title px-3 text-center">
             You may visit a Gynaecology clinic in dubai if you have <br /> any
             problem related to:
           </div>
-          <div className="flex lg:flex-row flex-col justify-between items-center">
-            <div className="left">
-              <br />
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Irregular menstruation</p>
+          <img
+            className="block mx-auto"
+            loading="lazy"
+            src="/images/Gynecology/13 1.webp"
+            alt=""
+          />
+
+          <div>
+            <div className="flex flex-row md:justify-around my-7 flex-wrap">
+              <div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Irregular menstruation</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Vaginal Infection,STD</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Uterine Fibroids</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Ovarian Cyst</p>
+                </div>
               </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Vaginal Infection,STD</p>
+              <div>
+                <div className="item items-center flex gap-2">
+                  &bull;{" "}
+                  <p className="my-3">Hormonal Imbalances and Active acne .</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Hirsutism</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Annual Check Up and Pap Smear</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Contraception</p>
+                </div>
               </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Uterine Fibroids</p>
+              <div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Erectile Dysfunction</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Labiaplasty</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">DIVA LASER</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Vaginal Tightening Operation</p>
+                </div>
               </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Ovarian Cyst</p>
+              <div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Mummy Make over</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Menopause</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Sexual Health</p>
+                </div>
+                <div className="item items-center flex gap-2">
+                  &bull; <p className="my-3">Cosmetic Gynecology</p>
+                </div>
               </div>
-              <div className="item items-center flex gap-2">
-                &bull;{" "}
-                <p className="my-3">Hormonal Imbalances and Active acne .</p>
-              </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Hirsutism</p>
-              </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Annual Check Up and Pap Smear</p>
-              </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Contraception</p>
-              </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Sexual Health</p>
-              </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Erectile Dysfunction</p>
-              </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Labiaplasty</p>
-              </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">DIVA LASER</p>
-              </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Vaginal Tightening Operation</p>
-              </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Cosmetic Gynecology</p>
-              </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Mummy Make over</p>
-              </div>
-              <div className="item items-center flex gap-2">
-                &bull; <p className="my-3">Menopause</p>
-              </div>
-            </div>
-            <div className="right">
-              <img loading="lazy" src="/images/Gynecology/13 1.webp" alt="" />
             </div>
           </div>
         </div>

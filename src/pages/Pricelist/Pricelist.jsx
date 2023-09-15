@@ -16,9 +16,9 @@ function PriceLIst() {
       <main>
         <img
           loading="lazy"
-          src="/images/home/few.webp"
+          src="/images/pricelist/pexels-andrea-piacquadio-3775118.webp"
           alt=""
-          className="main-images"
+          className="main-images max-h-80 object-cover"
         />
       </main>
       <div className="info">
@@ -156,25 +156,6 @@ function PriceLIst() {
                 src={`https://royamedicalcenter.com/images/Pricelist/HairTransplant/${card.img}.webp`}
                 alt=""
                 loading="lazy"
-              />
-              <div className="flex justify-between">
-                <div>{card.title}</div>
-                <span>{card.price}</span>
-              </div>
-              <p>{card.desc}</p>
-            </div>
-          ))}
-        </div>
-        <div className="main-title md:p-4 p-2 my-5">
-          Dental Department Price List
-        </div>
-        <div className="wrapper flex justify-around flex-wrap">
-          {PriceList.Dental.map((card, index) => (
-            <div className="card flex flex-col gap-4" key={index}>
-              <img
-                loading="lazy"
-                src={`https://royamedicalcenter.com/images/Pricelist/Dental/${card.img}.webp`}
-                alt=""
               />
               <div className="flex justify-between">
                 <div>{card.title}</div>

@@ -81,16 +81,6 @@ function Info() {
             onClick={showMenu}
           />
         </div>
-        <div className="main mobile">
-          <img className="hero-image" src="images/home/main.webp" alt="" />
-          <div className="info flex flex-col gap-1">
-            <h1>
-              Welcome to <br /> Roya Medical Center
-            </h1>
-            <p className="details">improving looks . changing lives</p>
-            <a href="https://wa.me/971544426622">Book Now</a>
-          </div>
-        </div>
         <div className="social-icons">
           <a href="https://www.instagram.com/royamedicalcenter.ae/">
             <img src="/images/home/instagram.webp" alt="" />

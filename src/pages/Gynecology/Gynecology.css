@@ -1,6 +1,17 @@
+.Gynecology .benefits .wrapper {
+  padding: 15px 0;
+}
+
+.Gynecology .benefits {
+  font-family: main;
+}
+
+.Gynecology .benefits h2 {
+  font-family: sans-serif;
+}
+
 .Gynecology .benefits h2 {
   color: #222f66;
-  font-family: PT Serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;

@@ -13,6 +13,16 @@ function Hero() {
           <a href="https://wa.me/971544426622">Book Now</a>
         </div>
       </div>
+      <div className="info  main mobile">
+        <img className="hero-image" src="images/home/main.webp" alt="" />
+        <div className="info flex flex-col gap-1">
+          <h1>
+            Welcome to <br /> Roya Medical Center
+          </h1>
+          <p className="details">improving looks . changing lives</p>
+          <a href="https://wa.me/971544426622">Book Now</a>
+        </div>
+      </div>
       <div className="bottom desktop py-4 flex md:items-end items-center justify-center">
         <div className="services flex items-center justify-center gap-3 flex-wrap">
           <div className="item">

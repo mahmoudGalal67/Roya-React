@@ -11,14 +11,6 @@ function Gallary() {
       <ContactInfo />
       <Info />
       <Nav />
-      <main>
-        <img
-          loading="lazy"
-          src="/images/home/few.webp"
-          alt=""
-          className="main-images"
-        />
-      </main>
       {/* <div className="video-feed my-4">
         <img
           loading="lazy"

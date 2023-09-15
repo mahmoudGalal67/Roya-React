@@ -35,6 +35,13 @@ body {
   overflow-x: hidden;
 }
 
+.slick-slider .slick-prev {
+  left: -9px;
+}
+.slick-slider .slick-next {
+  right: -9px;
+}
+
 a {
   text-decoration: none !important;
   color: inherit !important;
@@ -67,6 +74,26 @@ main {
 main .main-images {
   min-width: 100%;
 }
+
+/* Calling */
+
+.whatsUpp:hover .help {
+  opacity: 1;
+}
+
+.help {
+  position: absolute;
+  white-space: nowrap;
+  padding: 10px;
+  background: #feffff;
+  border-radius: 15px;
+  left: 82px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+/* Calling */
 
 /* Nav */
 
@@ -209,7 +236,7 @@ button span {
 .main.mobile .info {
   padding: 0 12px;
   position: absolute;
-  top: 50%;
+  top: 42%;
   left: 13px;
   text-align: center;
   align-items: center;
@@ -227,7 +254,8 @@ button span {
   text-transform: capitalize;
 }
 
-.main.mobile .info a {
+.main.mobile .info a,
+.main.mobile.info a {
   color: #fff !important;
   font-family: PT Serif;
   font-size: 16px;
@@ -245,7 +273,9 @@ button span {
   height: 32px;
 }
 
-main .video .info a,
+.main.mobile.info a,
+.main.mobile.info a,
+main .video .info p,
 main .video .info p {
   font-family: "main" !important;
 }

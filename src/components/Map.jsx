@@ -53,76 +53,72 @@ function Map() {
           </div>
         </div>
         <div className="right flex-1">
-          {window.innerWidth > 500 ? (
-            mapNumber === 1 ? (
+          {mapNumber === 1 ? (
+            <div
+              className="mapouter"
+              style={{
+                position: "relative",
+                textAlign: "right",
+                width: "100%",
+                height: "400px",
+              }}
+            >
               <div
-                className="mapouter"
+                className="gmap_canvas"
                 style={{
-                  position: "relative",
-                  textAlign: "right",
+                  overflow: "hidden",
+                  background: "none",
                   width: "100%",
                   height: "400px",
                 }}
               >
-                <div
-                  className="gmap_canvas"
-                  style={{
-                    overflow: "hidden",
-                    background: "none",
-                    width: "100%",
-                    height: "400px",
-                  }}
-                >
-                  <iframe
-                    title="1"
-                    className="gmap_iframe"
-                    style={{ height: "400px " }}
-                    width="100%"
-                    frameBorder="0"
-                    scrolling="no"
-                    marginHeight="0"
-                    marginWidth="0"
-                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Roya Medical Center ( Jumeirah Branch)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                  ></iframe>
-                  <a href="https://connectionsgame.org/">Connections NYT</a>
-                </div>
+                <iframe
+                  title="1"
+                  className="gmap_iframe"
+                  style={{ height: "400px " }}
+                  width="100%"
+                  frameBorder="0"
+                  scrolling="no"
+                  marginHeight="0"
+                  marginWidth="0"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.075737619279!2d55.2699793!3d25.2343739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42557e643b5d%3A0xe9078175168cb99a!2sRoya%20Medical%20Center%20(%20Jumeirah%20Branch)!5e0!3m2!1sen!2seg!4v1694688850037!5m2!1sen!2seg"
+                ></iframe>
+                <a href="https://connectionsgame.org/">Connections NYT</a>
               </div>
-            ) : (
-              <div
-                className="mapouter"
-                style={{
-                  position: "relative",
-                  textAlign: "right",
-                  width: "100%",
-                  height: "400px",
-                }}
-              >
-                <div
-                  className="gmap_canvas"
-                  style={{
-                    overflow: "hidden",
-                    background: "none!important",
-                    width: "100%",
-                    height: "400px",
-                  }}
-                >
-                  <iframe
-                    title="2"
-                    style={{ height: "400px " }}
-                    className="gmap_iframe"
-                    width="100%"
-                    frameBorder="0"
-                    scrolling="no"
-                    marginHeight="0"
-                    marginWidth="0"
-                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Roya Medical Center ( Al Barsha 2 , Street 1 - villa 1 Umm suqaym Road )&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                  ></iframe>
-                  <a href="https://connectionsgame.org/">Connections NYT</a>
-                </div>
-              </div>
-            )
+            </div>
           ) : (
-            <img loading="lazy" src="images/home/ma[.webp" alt="" />
+            <div
+              className="mapouter"
+              style={{
+                position: "relative",
+                textAlign: "right",
+                width: "100%",
+                height: "400px",
+              }}
+            >
+              <div
+                className="gmap_canvas"
+                style={{
+                  overflow: "hidden",
+                  background: "none!important",
+                  width: "100%",
+                  height: "400px",
+                }}
+              >
+                <iframe
+                  title="2"
+                  style={{ height: "400px " }}
+                  className="gmap_iframe"
+                  width="100%"
+                  frameBorder="0"
+                  scrolling="no"
+                  marginHeight="0"
+                  marginWidth="0"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d115607.12822906347!2d55.0737126!3d25.1112446!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6bf85403d6bb%3A0x376b68d91f6ddfeb!2sRoya%20Medical%20Center%20Al%20Barsha%20%2C%20Filler%20%2CMorpheus8%2C%20Laser%20Hair%20Removal%2CIV%20Vitamin!5e0!3m2!1sen!2seg!4v1694688946454!5m2!1sen!2seg"
+                ></iframe>
+                <a href="https://connectionsgame.org/">Connections NYT</a>
+              </div>
+            </div>
           )}
         </div>
       </div>

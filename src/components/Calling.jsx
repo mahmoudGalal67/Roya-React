@@ -9,6 +9,9 @@ function Calling() {
         <a href="https://wa.me/971544426622">
           <BsWhatsapp className="text-2xl text-white" />
         </a>
+        <div className="help">
+          <a href="https://wa.me/971544426622">Hi! How can i help you ? </a>
+        </div>
       </div>
       <div className="phone shadow-lg cursor-pointer  hover:shadow-blue-500 w-14 h-14 p-2 rounded-full flex justify-center items-center  bg-blue-500">
         <a href="tel:971544426622">

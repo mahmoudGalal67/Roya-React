@@ -16,10 +16,6 @@ export const menuItems = [
             url: "/skin-booster-injection",
           },
           {
-            title: "Morpheus 8 in Dubai",
-            url: "/morpheus-8-in-dubai",
-          },
-          {
             title: "BBL Hero",
             url: "/bbl-hero",
           },
